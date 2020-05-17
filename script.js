@@ -56,6 +56,7 @@ const addTodoAfterClick = () => {
     if (inputField.value.trim()) {
         list.innerHTML += `
             <li class="list-group-item">
+                <input type="checkbox">
                 ${inputField.value.trim()} 
                 <i class="fas fa-trash text-primary delete" style="float: right;" ></i>
             </li>
